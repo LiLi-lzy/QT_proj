@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1920</width>
-    <height>1072</height>
+    <width>1889</width>
+    <height>997</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -49,61 +49,159 @@
      <property name="geometry">
       <rect>
        <x>110</x>
-       <y>610</y>
-       <width>621</width>
-       <height>321</height>
+       <y>620</y>
+       <width>411</width>
+       <height>331</height>
       </rect>
      </property>
      <layout class="QGridLayout" name="gridLayout">
-      <item row="6" column="2">
-       <widget class="QRadioButton" name="radioButton_10">
-        <property name="text">
-         <string>白人</string>
-        </property>
-       </widget>
-      </item>
-      <item row="5" column="3">
-       <widget class="QRadioButton" name="radioButton_7">
-        <property name="text">
-         <string>否</string>
-        </property>
-       </widget>
-      </item>
       <item row="6" column="1">
-       <widget class="QRadioButton" name="radioButton_9">
-        <property name="text">
-         <string>黄种人</string>
-        </property>
-       </widget>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QRadioButton" name="radioButton_3">
+          <property name="text">
+           <string>是</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_2</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_4">
+          <property name="text">
+           <string>否</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_2</string>
+          </attribute>
+         </widget>
+        </item>
+       </layout>
       </item>
-      <item row="2" column="1">
+      <item row="3" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QRadioButton" name="radioButton_2">
+          <property name="text">
+           <string>男</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton">
+          <property name="text">
+           <string>女</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup</string>
+          </attribute>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="9" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QRadioButton" name="radioButton_9">
+          <property name="text">
+           <string>黄种人</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_4</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_8">
+          <property name="text">
+           <string>黑人</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_4</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_10">
+          <property name="text">
+           <string>白人</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_4</string>
+          </attribute>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="8" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QRadioButton" name="radioButton_7">
+          <property name="text">
+           <string>否</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_3</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_6">
+          <property name="text">
+           <string>普通眼镜</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_3</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_5">
+          <property name="text">
+           <string>太阳镜</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_3</string>
+          </attribute>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="10" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QRadioButton" name="radioButton_12">
+          <property name="text">
+           <string>有</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_5</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_11">
+          <property name="text">
+           <string>无</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_5</string>
+          </attribute>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="5" column="1">
        <widget class="QLineEdit" name="lineEdit_2">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="0">
-       <widget class="QLabel" name="label_4">
-        <property name="text">
-         <string>年龄</string>
-        </property>
-       </widget>
-      </item>
-      <item row="6" column="0">
-       <widget class="QLabel" name="label_6">
-        <property name="text">
-         <string>人种</string>
-        </property>
-       </widget>
-      </item>
-      <item row="6" column="3">
-       <widget class="QRadioButton" name="radioButton_8">
-        <property name="text">
-         <string>黑人</string>
         </property>
        </widget>
       </item>
@@ -117,94 +215,61 @@
         </property>
        </widget>
       </item>
-      <item row="4" column="1">
-       <widget class="QRadioButton" name="radioButton_3">
+      <item row="10" column="0">
+       <widget class="QLabel" name="label_7">
+        <property name="maximumSize">
+         <size>
+          <width>404</width>
+          <height>16777215</height>
+         </size>
+        </property>
         <property name="text">
-         <string>是</string>
+         <string>胡子</string>
         </property>
        </widget>
       </item>
-      <item row="5" column="0">
+      <item row="9" column="0">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>人种</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0">
        <widget class="QLabel" name="label_8">
         <property name="text">
          <string>是否戴眼镜</string>
         </property>
        </widget>
       </item>
-      <item row="4" column="2">
-       <widget class="QRadioButton" name="radioButton_4">
-        <property name="text">
-         <string>否</string>
-        </property>
-       </widget>
-      </item>
-      <item row="5" column="2">
-       <widget class="QRadioButton" name="radioButton_5">
-        <property name="text">
-         <string>太阳镜</string>
-        </property>
-       </widget>
-      </item>
-      <item row="5" column="1">
-       <widget class="QRadioButton" name="radioButton_6">
-        <property name="text">
-         <string>普通眼镜</string>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="0">
+      <item row="6" column="0">
        <widget class="QLabel" name="label_5">
         <property name="text">
          <string>是否有口罩</string>
         </property>
        </widget>
       </item>
-      <item row="1" column="1">
-       <widget class="QRadioButton" name="radioButton_2">
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_4">
         <property name="text">
-         <string>男</string>
+         <string>年龄</string>
         </property>
        </widget>
       </item>
-      <item row="0" column="0">
-       <widget class="QLabel" name="label_2">
-        <property name="text">
-         <string>ID</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="2">
-       <widget class="QRadioButton" name="radioButton">
-        <property name="text">
-         <string>女</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="0">
+      <item row="3" column="0">
        <widget class="QLabel" name="label_3">
         <property name="text">
          <string>性别</string>
         </property>
        </widget>
       </item>
-      <item row="7" column="0">
-       <widget class="QLabel" name="label_7">
-        <property name="text">
-         <string>胡子</string>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="enabled">
+         <bool>true</bool>
         </property>
-       </widget>
-      </item>
-      <item row="7" column="1">
-       <widget class="QRadioButton" name="radioButton_12">
         <property name="text">
-         <string>有</string>
-        </property>
-       </widget>
-      </item>
-      <item row="7" column="2">
-       <widget class="QRadioButton" name="radioButton_11">
-        <property name="text">
-         <string>无</string>
+         <string>ID</string>
         </property>
        </widget>
       </item>
@@ -252,26 +317,29 @@
     <widget class="QTableWidget" name="tableWidget">
      <property name="geometry">
       <rect>
-       <x>990</x>
+       <x>970</x>
        <y>60</y>
        <width>901</width>
-       <height>971</height>
+       <height>891</height>
       </rect>
      </property>
      <property name="rowCount">
       <number>10</number>
      </property>
      <property name="columnCount">
-      <number>7</number>
+      <number>4</number>
      </property>
      <attribute name="horizontalHeaderVisible">
       <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>218</number>
      </attribute>
      <attribute name="verticalHeaderVisible">
       <bool>false</bool>
      </attribute>
      <attribute name="verticalHeaderDefaultSectionSize">
-      <number>123</number>
+      <number>218</number>
      </attribute>
      <row/>
      <row/>
@@ -287,54 +355,12 @@
      <column/>
      <column/>
      <column/>
-     <column/>
-     <column/>
-     <column/>
-    </widget>
-    <widget class="QLabel" name="label_9">
-     <property name="geometry">
-      <rect>
-       <x>220</x>
-       <y>20</y>
-       <width>72</width>
-       <height>15</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>C:/.....</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_10">
-     <property name="geometry">
-      <rect>
-       <x>680</x>
-       <y>20</y>
-       <width>72</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>C:/.....</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_11">
-     <property name="geometry">
-      <rect>
-       <x>1170</x>
-       <y>20</y>
-       <width>72</width>
-       <height>15</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>C:/.....</string>
-     </property>
     </widget>
     <widget class="QLabel" name="label_12">
      <property name="geometry">
       <rect>
-       <x>120</x>
-       <y>970</y>
+       <x>580</x>
+       <y>810</y>
        <width>72</width>
        <height>15</height>
       </rect>
@@ -346,8 +372,8 @@
     <widget class="QLineEdit" name="lineEdit_3">
      <property name="geometry">
       <rect>
-       <x>240</x>
-       <y>970</y>
+       <x>660</x>
+       <y>810</y>
        <width>113</width>
        <height>21</height>
       </rect>
@@ -356,8 +382,8 @@
     <widget class="QPushButton" name="pushButton_4">
      <property name="geometry">
       <rect>
-       <x>600</x>
-       <y>950</y>
+       <x>580</x>
+       <y>890</y>
        <width>131</width>
        <height>51</height>
       </rect>
@@ -365,6 +391,17 @@
      <property name="text">
       <string>下一张</string>
      </property>
+    </widget>
+    <widget class="QWidget" name="formLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>389</x>
+       <y>299</y>
+       <width>2</width>
+       <height>2</height>
+      </rect>
+     </property>
+     <layout class="QFormLayout" name="formLayout_2"/>
     </widget>
    </widget>
    <widget class="QWidget" name="tab_2">
@@ -376,4 +413,11 @@
  </widget>
  <resources/>
  <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+  <buttongroup name="buttonGroup_3"/>
+  <buttongroup name="buttonGroup_2"/>
+  <buttongroup name="buttonGroup_5"/>
+  <buttongroup name="buttonGroup_4"/>
+ </buttongroups>
 </ui>
